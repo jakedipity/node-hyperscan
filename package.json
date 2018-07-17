@@ -1,0 +1,30 @@
+{
+  "name": "node-hyperscan",
+  "version": "0.0.1",
+  "description": "Node.js native bindings for Intel's Hyperscan library",
+  "keywords": [
+    "hyperscan",
+    "regex",
+    "regular expression",
+    "multi pattern",
+    "pattern matching"
+  ],
+  "license": "BSD-3-Clause",
+  "contributors": [
+    "Jacob Hull <jacob@planethull.com>"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "nan": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "./install.sh; node-gyp rebuild;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakedipity/node-hyperscan"
+  },
+  "gypfile": true
+}
